@@ -1,3 +1,4 @@
+import 'package:artbot/screens/history_screen/hisotry_screen.dart';
 import 'package:artbot/screens/settings_screen/providers/settings_provider.dart';
 import 'package:artbot/screens/settings_screen/settings_screen.dart';
 import 'package:flutter/material.dart';
@@ -53,6 +54,7 @@ class MyApp extends StatelessWidget {
               routes: {
                 "/home": (context) => const HomeScreen(),
                 "/settings": (context) => const SettingsScreen(),
+                "/history": (context) => const HistoryScreen(),
               },
             ),
           );
